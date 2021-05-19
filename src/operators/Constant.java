@@ -2,7 +2,7 @@ package operators;
 
 /**
  * Clase para declarar constantes
- * @author David Cesar Fernandez Aliseda
+ * @author David César Fernández Aliseda
  * @version 14/05/21/A
  */
 

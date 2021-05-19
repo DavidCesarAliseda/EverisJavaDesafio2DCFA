@@ -1,8 +1,8 @@
 package operators;
 
 /**
- * Esta clase define el objeto Player el cual representa una persona que jugara a la maquina de Pinball.
- * @author David Cesar Fernandez Aliseda
+ * Esta clase define el objeto Player el cual representa una persona que jugará a la máquina de Pinball.
+ * @author David César Fernández Aliseda
  * @version 14/05/21/A
  */
 
@@ -11,8 +11,8 @@ public class Player extends Person {
 
     /**
      * Constructor de player
-     * @param name Parametro que representa el nombre del jugador
-     * @param age  Parametro que representa la edad del jugador
+     * @param name Parámetro que representa el nombre del jugador
+     * @param age  Parámetro que representa la edad del jugador
      */
 
     public Player(String name, int age) {

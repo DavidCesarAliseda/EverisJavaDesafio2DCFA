@@ -7,7 +7,7 @@ import operators.Player;
 
 /**
  * Clase principal donde se ejecuta el programa.
- * @author David Cesar Fernandez Aliseda
+ * @author David César Fernández Aliseda
  */
 
 public class FPDual {
@@ -16,15 +16,20 @@ public class FPDual {
     }
 
     /**
-     * Metodo para ejecutar el programa.
+     * Método para ejecutar el programa.
      */
 
     private static void operatorsChallenge(){
+    	//Instanciacion de operator
         Operator o1 = new Operator("Pepe",52, City.MALAGA);
-        Player player1 = new Player("pili",16);
+        
+        //Instanciacion de jugador y pinball
+        Player player1 = new Player("Tellez",18);
         Pinball p1 = new Pinball();
+        
+        //Operator no podrá jugar 
         p1.playGame(o1);
-
+        //Ejecución del método playGame para jugar
         p1.playGame(player1);
         p1.playGame(player1);
     }

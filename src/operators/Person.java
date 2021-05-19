@@ -1,8 +1,8 @@
 package operators;
 
 /**
- * Esta clase define el objeto Person el cual representa una persona que tendra una funcion frente a la maquina de Pinball.
- * @author David Cesar Fernandez Aliseda
+ * Esta clase define el objeto Person el cual representa una persona que tendra una funcián frente a la máquina de Pinball.
+ * @author David César Fernández Aliseda
  * @version 14/05/21/A
  */
 
@@ -12,8 +12,8 @@ public abstract class Person {
 
     /**
      * Constructor de person
-     * @param name Parametro que representa el nombre de la persona
-     * @param age  Parametro que representa la edad de la persona
+     * @param name Parámetro que representa el nombre de la persona
+     * @param age  Parámetro que representa la edad de la persona
      */
 
     public Person(String name, int age) {

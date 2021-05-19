@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"operators","l":"City"},{"p":"operators","l":"Constant"},{"p":"fpdualeveris","l":"FPDual"},{"p":"operators","l":"Operator"},{"p":"operators","l":"Person"},{"p":"operators","l":"Pinball"},{"p":"operators","l":"Player"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"fpdualeveris","l":"FPDual"},{"p":"operators","l":"Pinball"}];updateSearchResults();
