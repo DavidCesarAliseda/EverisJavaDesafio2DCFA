@@ -12,6 +12,7 @@ public class Pinball {
     private static long RECORD = Constant.INITIAL_SCORE;
     private long score;
     private boolean isGaming;
+    private static Scanner sc;
 
     /**
      * Constructor para Pinball
@@ -49,6 +50,7 @@ public class Pinball {
 
     public void playGame(Person player){
         setScore(Constant.INITIAL_SCORE);
+        
         startGame(player);
 
         if (isGaming){
@@ -56,6 +58,7 @@ public class Pinball {
             Player player1 = (Player) player;
             player1.setNewPersonalRecord(score);
         }
+       
     }
 
     /**
@@ -64,9 +67,10 @@ public class Pinball {
      */
 
     private void startGame(Person player) {
+    	sc = new Scanner(System.in);
         try {
+        	
             if (player instanceof Player){
-                Scanner sc = new Scanner(System.in);
                 System.out.println(player.getName()+" ¿Quiere comenzar la partida? s/n");
                 String answer = sc.nextLine();
 
@@ -81,10 +85,11 @@ public class Pinball {
             }else{
                 System.out.println("Deja de jugar y a trabajar!!");
             }
-
+            	
         } catch (Exception e) {
             System.out.println("Entrada no valida.");
         }
+       
     }
     //Jugando
 
@@ -213,19 +218,19 @@ public class Pinball {
 
     private String playerReaction(){
         String side = "";
+    
         try {
+        	
             do{
                 System.out.println("Inserte la palanca que desea accionar: izq/der");
-                Scanner sc = new Scanner(System.in);
                 side = sc.nextLine();
                 
             }while(!side.equals("izq") && !side.equals("der"));
             side = (side.equals("izq")?"izquierda":"derecha");
-
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
-        
         return side;
     }
 
