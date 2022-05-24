@@ -1,5 +1,5 @@
 # EverisJavaDesafio2DCFA
-Desarrollo de juego Painball
+Desarrollo de juego Pinball
 
 El juego está dividido en tres partes, top, mid, bot, en cada una de estas partes se podrá conseguir la puntuación de distinta forma. Además en la parte bot el jugador podrá elegir que palanca accionar para evitar que la bola caiga, aunque accione la palanca correcta hay una posibilidad de que falle. 
 
